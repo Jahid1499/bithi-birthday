@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1400px) {
+    div#video iframe {
+        width: 562px;
+        height: 396px;
+    }
+    div#video {
+        width: 536px;
+        height: 371px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .icons .row span {
+        font-size: 35px;
+    }
+    .icons {
+        left: 5px;
+        top: 3px;
+    }
+    div#video iframe {
+        width: 562px;
+        height: 396px;
+    }
+    div#video {
+        position: absolute;
+        right: 174px;
+        bottom: 170px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .icons .row span {
+        font-size: 30px;
+    }
+    .icons {
+        left: 3px;
+        top: 3px;
+    }
+    div#video iframe {
+        width: 500px;
+        height: 300px;
+    }
+    div#video {
+        position: absolute;
+        right: 120px;
+        bottom: 200px;
+    }
+}

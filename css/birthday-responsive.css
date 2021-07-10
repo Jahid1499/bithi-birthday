@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1400px) {
+    #card-front, #card-inside {
+        width: 50%;
+        left: 55%;
+        top: 0%;
+    }
+    #card-inside {
+        font-size: 1.0em;
+    }
+    #card h1{
+        font-size: 50px;
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #card-front, #card-inside {
+        width: 40%;
+        left: 50%;
+        top: 0%;
+    }
+    #card-inside {
+        font-size: 1.0em;
+    }
+    #card h1{
+        font-size: 50px;
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #card-front, #card-inside {
+        width: 50%;
+        left: 48%;
+    }
+    #card-inside {
+        font-size: 0.9em;
+    }
+    #card h1{
+        font-size: 30px;
+        padding-top: 170px;
+    }
+    p:first-child {
+        margin-top: 37px;
+    }
+}
